@@ -1,0 +1,21 @@
+[tool.isort]
+profile = "black"
+known_typing="typing"
+known_shows="shows"
+known_playlists="playlists"
+known_common="common"
+known_django="django"
+
+sections="FUTURE,TYPING,STDLIB,THIRDPARTY,DJANGO,COMMON,SHOWS,PLAYLISTS,FIRSTPARTY,LOCALFOLDER"
+
+import_heading_stdlib="Standard Library"
+import_heading_firstparty="Unknown"
+import_heading_localfolder="Local"
+import_heading_thirdparty="Third Party"
+import_heading_shows="Shows"
+import_heading_common="Common"
+import_heading_django="Django"
+import_heading_playlists="Playlists"
+
+[tool.black]
+line-length = 120
